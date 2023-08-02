@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+#include<conio.h>
+int main()
+{
+	char str1[20],str2[20];
+	printf("enter the sentence");
+	gets(str1);
+	printf("\n the string = %s",str1);
+	strcpy(str2,str1);
+	printf("\n copied string = %s",str2);
+	getch();
+	return 0;
+}
